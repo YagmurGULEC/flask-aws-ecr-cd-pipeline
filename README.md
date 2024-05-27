@@ -1,3 +1,3 @@
 # flaskWithCDpipeline
 
-Automatically push your docker image to Docker Hub of your flask application.
+Automatically push your Flask docker image to  AWS ECR.

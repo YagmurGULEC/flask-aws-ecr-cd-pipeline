@@ -7,4 +7,4 @@ docker build -t myflaskapp .
 docker image ls
 
 # Run flask app
-docker run -p 5000:5000 myflaskapp
+docker run -d -p 4000:80 myflaskapp
