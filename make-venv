@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -f .env/bin/activate ]; then
+    source .env/bin/activate
+fi
+shift   # drop first arg
+eval $@ # eval command from Makefile
